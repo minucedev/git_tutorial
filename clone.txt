@@ -1,4 +1,21 @@
+
+# Tạo 1 project trên github
+Tạo 1 github repository (folder) - nơi chứa code
+Clone project này:  git clone link_your_repo
+Viết code
+git status ( kiểm tra trạng thái files)
+git add .  (thêm files)
+git commit  -m “your_message”  (tạo nội dung commit)
+git push origin main
+
+--------------------------------------------------------------
+
+# Tạo project local và đẩy lên github
+Tạo 1 github repo
+git init
+Viết code
 git status
 git add .
-git commit -m "_"
-git push
+git commit -m “your message”
+git remote add origin https://…..
+git push origin master
